@@ -63,8 +63,6 @@ export default {
         this.list.push(data);
 
       }
-
-      console.log(this.list);
       
     }
   },
