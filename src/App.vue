@@ -1,21 +1,25 @@
 <template>
   <div id="app">
     <Dashboard/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import Dashboard from './components/Dashboard.vue'
+import Dashboard from './components/Dashboard.vue';
+import Footer from './components/Footer';
 
 export default {
   name: 'app',
   components: {
-    Dashboard
+    Dashboard,
+    Footer
   }
 }
 </script>
 
 <style lang="scss">
+@import './scss/_bootstrap-grid.scss';
 * {
   box-sizing: border-box;
 }

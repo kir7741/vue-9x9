@@ -81,7 +81,7 @@ export default {
 .wrapper {
   margin: 0 auto;
   padding: 80px 85px;
-  width: 1280px;
+  max-width: 1280px;
 }
 ul {
   margin: 0;
@@ -165,6 +165,10 @@ ul {
     width: 50%;
     height: 50%;
     font-size: 140px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: darkred;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 1px;
   }
 
   p {
